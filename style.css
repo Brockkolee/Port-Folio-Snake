@@ -4,7 +4,6 @@ h1 {
 }
 
 .grid > div {
-    
     border: black 1px solid;
 }
 
@@ -18,10 +17,10 @@ h1 {
 
 .grid {
     margin: 10vmin auto;
-    height: 60vmin;
-    width: 60vmin;
+    height: 80vmin;
+    width: 80vmin;
     display: grid;
-    grid-template-columns: repeat(10, 1fr);
-    grid-template-rows: repeat(11, 1fr);
+    grid-template-columns: repeat(50, 1fr);
+    grid-template-rows: repeat(51, 1fr);
 
 }
